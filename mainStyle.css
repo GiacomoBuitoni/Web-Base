@@ -12,7 +12,7 @@
 
 .appButton:hover {
     transform: rotate(3.5deg);
-    transition: .5s;
+    transition: .2s;
 }
 
 .butImg {
