@@ -5,6 +5,7 @@ console.log(date.getSeconds())
 let hours
 let minutes
 let seconds
+
 // while(true){
 //     console.log(hours + ":" + minutes + ":" + seconds)  
 // }
@@ -27,6 +28,7 @@ function runClock() {
     document.getElementById("clock").innerHTML = hours + ':' + minutes + ":" + seconds
     
     
-    setTimeout(mainLoop, 1000); // Run the loop every 1 second
+    
+    setTimeout(runClock, 1000); // Run the loop every 1 second
 }
 runClock()

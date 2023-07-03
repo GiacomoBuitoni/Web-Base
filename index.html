@@ -6,18 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="background_styles.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainStyle.css">
     <script async src='script.js'></script>
 </head>
 
 <body style="background-color: #011303;">
-    <label id="clock"
-        style="color: white; position:relative; left: 30%; top: 200px; font-size: 100px; font-family: 'Courier New', Courier, monospace;"></label>
-    <button style="border-radius: 5px; background-color: white; width:50px; height: 50px;"
-        onclick="window.open('https://www.youtube.com/')" type='button' id="youtubeButton"> <img
-            style=" height: 100%; width:100%; align-items: center;"
+    <label id="clock"> </label>
+    <button class="appButton yTube" onclick="window.open('https://www.youtube.com/')" type='button' id="youtubeButton">
+        <img style="width: 40px; height: 40px; top:100px; left: 25px;"
             src="https://static.vecteezy.com/system/resources/previews/018/930/572/original/youtube-logo-youtube-icon-transparent-free-png.png"></button>
+    <button type="button" class="appButton gitHub" id="gitButton"
+        onclick="window.open('https://github.com/GiacomoBuitoni')"><img class="butImg"
+            src="https://pngimg.com/uploads/github/github_PNG71.png"></button>
+    <button type="button" class="appButton gMail" onclick="window.open('https://mail.google.com/mail/u/0/#inbox')"><img
+            class="butImg"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"></button>
+    <button type="button" class="pageButton" onclick="window.location.href='news.html'">News</button>
+    <label id="quickAppTitle">Daily Quick Links</label>
+
 </body>
 
 </html>

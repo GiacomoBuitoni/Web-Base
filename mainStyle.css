@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+.appButton {
+    border-radius: 10px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+.appButton:hover {
+    transform: rotate(3.5deg);
+    transition: .5s;
+}
+
+.butImg {
+    height: 30px;
+    width: 30px;
+}
+
+.yTube {
+    position: absolute;
+    left: 30px;
+    top: 500px;
+}
+
+.gitHub {
+    position: absolute;
+    left: 120px;
+    top: 500px;
+}
+
+.gMail {
+    position: absolute;
+    left: 210px;
+    top: 500px;
+}
+
+label {
+    font-family: "Play";
+    color: white;
+}
+
+#quickAppTitle {
+    position: absolute;
+    top: 450px;
+    left: 75px;
+}
+
+.pageButton {
+    font-family: 'Maven Pro';
+    font-size: 30px;
+    width: 200px;
+    height: 75px;
+}
+
+#clock {
+    font-family: "Gasoek One";
+    position: relative;
+    left: 30%;
+    top: 200px;
+    font-size: 100px;
+}
