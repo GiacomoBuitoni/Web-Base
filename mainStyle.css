@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 
 .appButton {
-    border-radius: 10px;
+    border: 1px solid rgb(120, 120, 120);
+    border-radius: 5px;
     background-color: white;
     width: 50px;
     height: 50px;
@@ -11,8 +14,10 @@
 }
 
 .appButton:hover {
-    transform: rotate(3.5deg);
-    transition: .2s;
+    background-color: rgb(210, 210, 210);
+    border-radius: 10px;
+    transform: translate(0, -3px);
+    transition: .1s;
 }
 
 .butImg {
@@ -39,18 +44,22 @@
 }
 
 label {
-    font-family: "Play";
+    font-family: "Comfortaa";
     color: white;
 }
 
 #quickAppTitle {
     position: absolute;
     top: 450px;
-    left: 75px;
+    left: 20px;
 }
 
 .pageButton {
-    font-family: 'Maven Pro';
+    background-color: white;
+    color: #023b09;
+    border: 1px solid rgb(120, 120, 120);
+    font-family: 'Comfortaa';
+    border-radius: 5px;
     font-size: 30px;
     width: 200px;
     height: 75px;
@@ -62,4 +71,46 @@ label {
     left: 30%;
     top: 200px;
     font-size: 100px;
+}
+
+.pageButton:hover {
+    background-color: rgb(210, 210, 210);
+    transform: translate(0, -3px);
+    border-radius: 10px;
+    transition: .1s;
+
+}
+
+.news {
+    position: absolute;
+    top: 487.5px;
+    left: 350px;
+}
+
+#blankBox {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    border: 1px solid white;
+    left: 10px;
+    top: 325px;
+}
+
+.backButton {
+    background-color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.backButton:hover {
+    transform: translate(0, -3px);
+    transition: .2s;
+    background-color: rgb(210, 210, 210);
+
 }
