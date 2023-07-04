@@ -65,7 +65,7 @@ label {
     height: 75px;
 }
 
-#clock {
+.clock {
     font-family: "Gasoek One";
     position: relative;
     left: 30%;
@@ -113,4 +113,40 @@ label {
     transition: .2s;
     background-color: rgb(210, 210, 210);
 
+}
+
+.chatGPT {
+    position: absolute;
+    left: 30px;
+    top: 590px;
+}
+
+.nyt {
+    position: absolute;
+    left: 30px;
+    top: 550px;
+}
+
+.jacobin {
+    position: absolute;
+    left: 280px;
+    top: 550px;
+}
+
+.demNow {
+    position: absolute;
+    left: 530px;
+    top: 550px;
+}
+
+.bbc {
+    position: absolute;
+    left: 780px;
+    top: 550px;
+}
+
+.newsClock {
+    font-size: 30px;
+    top: 15px;
+    left: 120px;
 }
