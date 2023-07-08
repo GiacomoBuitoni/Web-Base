@@ -28,3 +28,20 @@ function runClock() {
     setTimeout(runClock, 1000);
 }
 runClock()
+
+function appOpen(url){
+    let box = document.getElementById("newWindow");
+    if(box.checked){
+        let windowFeatures = 'width=1000,height=1000'
+        window.open(url, '_blank', windowFeatures)
+
+    
+    }
+    else{
+        window.open(url)
+    }
+
+}
+window.appOpen = appOpen
+
+

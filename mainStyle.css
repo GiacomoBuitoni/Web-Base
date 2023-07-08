@@ -121,6 +121,12 @@ label {
     top: 590px;
 }
 
+.office {
+    position: absolute;
+    left: 120px;
+    top: 590px;
+}
+
 .nyt {
     position: absolute;
     left: 30px;
@@ -149,4 +155,10 @@ label {
     font-size: 30px;
     top: 15px;
     left: 120px;
+}
+
+#newWindow {
+    position: absolute;
+    left: 210px;
+    top: 604px;
 }

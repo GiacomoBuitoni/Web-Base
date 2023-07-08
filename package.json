@@ -1,0 +1,23 @@
+{
+  "name": "web-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiacomoBuitoni/Web-Base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiacomoBuitoni/Web-Base/issues"
+  },
+  "homepage": "https://github.com/GiacomoBuitoni/Web-Base#readme",
+  "dependencies": {
+    "puppeteer": "^20.7.4"
+  }
+}
