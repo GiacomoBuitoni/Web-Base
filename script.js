@@ -44,4 +44,32 @@ function appOpen(url){
 }
 window.appOpen = appOpen
 
+function school(){
+    window.open('https://teams.microsoft.com/_?culture=en-us&country=us#/school/teams-grid/General?ctx=teamsGrid')
+    window.open('https://studentportal-mhric.eschooldata.com/RedHookCSD')
+    window.open('https://www.redhookcentralschools.org/Domain/51')
+    window.open('https://www.office.com/?auth=2')
+}
+window.school = school;
 
+function leisure(){
+    window.open('https://www.depop.com')
+    window.open('https://www.pinterest.com/')
+    window.open('https://www.chess.com/home')
+    window.open('https://www.grailed.com/')
+}
+window.leisure = leisure;
+
+function books(){
+    window.open('https://libgen.li/')
+    window.open('https://archive.org/')
+}
+window.books = books
+
+function security(){
+    window.open('https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/');
+    window.open('https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/')
+    window.open('https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search');
+    window.open('https://addons.mozilla.org/en-US/firefox/addon/smart-https-revived/')
+}
+window.security = security;

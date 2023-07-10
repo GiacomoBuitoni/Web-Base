@@ -83,7 +83,7 @@ label {
 
 .news {
     position: absolute;
-    top: 487.5px;
+    top: 537.5px;
     left: 350px;
 }
 
@@ -130,25 +130,25 @@ label {
 .nyt {
     position: absolute;
     left: 30px;
-    top: 550px;
+    top: 650px;
 }
 
 .jacobin {
     position: absolute;
     left: 280px;
-    top: 550px;
+    top: 650px;
 }
 
 .demNow {
     position: absolute;
     left: 530px;
-    top: 550px;
+    top: 650px;
 }
 
 .bbc {
     position: absolute;
     left: 780px;
-    top: 550px;
+    top: 650px;
 }
 
 .newsClock {
@@ -161,4 +161,64 @@ label {
     position: absolute;
     left: 210px;
     top: 604px;
+}
+
+.schoolSet {
+    position: absolute;
+    top: 537.5px;
+    left: 600px;
+}
+
+.leisure {
+    position: absolute;
+    top: 537.5px;
+    left: 850px;
+}
+
+.piracy {
+    position: absolute;
+    top: 537.5px;
+    left: 1100px;
+}
+
+.pirateClock {
+    font-size: 30px;
+    top: 15px;
+    left: 120px;
+}
+
+.sports {
+    position: absolute;
+    top: 650px;
+    left: 30px;
+}
+
+.books {
+    position: absolute;
+    top: 650px;
+    left: 240px
+}
+
+.manga {
+    position: absolute;
+    top: 650px;
+    left: 450px;
+}
+
+.anime {
+    position: absolute;
+    top: 650px;
+    left: 660px;
+}
+
+.general {
+    position: absolute;
+    top: 650px;
+    left: 870px;
+}
+
+.security {
+    position: absolute;
+    top: 650px;
+    left: 1080px;
 }
