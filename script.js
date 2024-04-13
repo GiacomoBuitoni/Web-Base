@@ -72,4 +72,5 @@ function security(){
     window.open('https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search');
     window.open('https://addons.mozilla.org/en-US/firefox/addon/smart-https-revived/')
 }
+//This is just a test
 window.security = security;
